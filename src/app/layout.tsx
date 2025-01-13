@@ -1,6 +1,6 @@
-import clsx from 'clsx';
 import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
+import { twMerge } from 'tailwind-merge';
 import './globals.css';
 
 const dmSans = DM_Sans({ subsets: ['latin'] });
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(dmSans.className, 'antialiased bg-[#EAEEFE]')}>
+      <body className={twMerge(dmSans.className, 'antialiased bg-[#EAEEFE]')}>
         {children}
       </body>
     </html>
