@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 backdrop-blur-sm">
+    <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="py-3 flex justify-center items-center gap-3 bg-black text-white text-sm">
         <p className="max-md:hidden text-white/60">
           Streamline your workflow and boost your productivity.
