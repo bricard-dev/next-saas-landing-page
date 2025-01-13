@@ -13,6 +13,11 @@ export default {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      screens: {
+        sm: '375px',
+        md: '768px',
+        lg: '1200px',
+      },
       container: {
         center: true,
         padding: {
