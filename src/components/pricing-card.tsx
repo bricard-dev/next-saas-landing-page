@@ -1,5 +1,8 @@
+'use client';
+
 import checkIcon from '@/assets/check.svg';
 import { PricingTier } from '@/lib/definitions';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
 
@@ -26,9 +29,20 @@ export default function PricingCard({
         </h3>
         {popular && (
           <div className="px-4 py-1.5 border border-white/20 rounded-xl text-sm">
-            <span className="bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF)] text-transparent bg-clip-text">
+            <motion.span
+              className="[background-size:200%] bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF)] text-transparent bg-clip-text"
+              animate={{
+                backgroundPositionX: '100%',
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: 'linear',
+                repeatType: 'loop',
+              }}
+            >
               Most popular
-            </span>
+            </motion.span>
           </div>
         )}
       </div>
