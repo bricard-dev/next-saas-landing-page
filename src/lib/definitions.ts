@@ -6,3 +6,10 @@ export type PricingTier = {
   inverse: boolean;
   features: string[];
 };
+
+export type Testimonial = {
+  text: string;
+  imageSrc: string;
+  name: string;
+  username: string;
+};
