@@ -28,7 +28,7 @@
   }
 
   .section-title {
-    @apply bg-gradient-to-b from-black to-[#001E7F] bg-clip-text text-transparent text-center font-bold text-3xl md:text-[3.375rem] md:leading-[60px] tracking-tighter;
+    @apply bg-gradient-to-b from-black to-[#001E7F] bg-clip-text text-center text-transparent font-bold text-3xl md:text-[3.375rem] md:leading-[60px] tracking-tighter;
   }
 
   .section-description {
