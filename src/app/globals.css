@@ -22,4 +22,20 @@
   .tag {
     @apply px-3 py-1 inline-flex border border-[#222]/10 rounded-lg font-medium text-sm tracking-tight;
   }
+
+  .section-heading {
+    @apply max-w-[540px] mx-auto;
+  }
+
+  .section-title {
+    @apply bg-gradient-to-b from-black to-[#001E7F] bg-clip-text text-transparent text-center font-bold text-3xl md:text-[3.375rem] md:leading-[60px] tracking-tighter;
+  }
+
+  .section-description {
+    @apply text-center text-[#010D3E] text-[1.375rem] leading-[30px] tracking-tight;
+  }
+
+  .card {
+    @apply max-w-xs w-full p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA];
+  }
 }
