@@ -12,6 +12,10 @@ A sleek and responsive SaaS landing page built with modern web technologies. Sho
 
 ## General Information
 
+This project is dedicated to the design of a landing page for a fake SaaS to demonstrate my skills to develop this type of project.
+
+The assets and layout were strongly inspired by a tutorial from [Frontend Tribe](https://frontendtribe.com).
+
 ### Technologies
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -23,6 +27,8 @@ A sleek and responsive SaaS landing page built with modern web technologies. Sho
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white)
 
 ## License
+
+This GitHub repository is accessible under the MIT License, granting users the freedom to use, modify, and distribute the code with minimal restrictions.
 
 ## Contact
 
