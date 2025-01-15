@@ -69,7 +69,7 @@ const testimonials: Testimonial[] = [
 
 const firstColumn = testimonials.slice(0, 3);
 const secondColumn = testimonials.slice(3, 6);
-const thirdColumn = testimonials.slice(6, 8);
+const thirdColumn = testimonials.slice(6, 9);
 
 export default function Testimonials() {
   return (
@@ -85,15 +85,17 @@ export default function Testimonials() {
             essential tool for users around the world.
           </p>
         </div>
-        <div className="flex justify-center gap-6">
-          <TestimonialsColumn testimonials={firstColumn} />
+        <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
+          <TestimonialsColumn testimonials={firstColumn} duration={15} />
           <TestimonialsColumn
             testimonials={secondColumn}
             className="max-md:hidden"
+            duration={19}
           />
           <TestimonialsColumn
             testimonials={thirdColumn}
             className="max-lg:hidden"
+            duration={17}
           />
         </div>
       </div>
