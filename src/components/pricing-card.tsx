@@ -21,7 +21,7 @@ export default function PricingCard({
       <div className="flex justify-between items-center">
         <h3
           className={twMerge(
-            'font-bold text-lg text-black/50 tracking-tighter',
+            'font-bold text-lg text-black/60 tracking-tighter',
             inverse && 'text-white/50'
           )}
         >
@@ -52,7 +52,7 @@ export default function PricingCard({
         </span>
         <span
           className={twMerge(
-            'font-bold text-black/50',
+            'font-bold text-black/60',
             inverse && 'text-white/50'
           )}
         >
