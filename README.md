@@ -1,16 +1,18 @@
 # SaaS Landing Page
 
+![Texte alternatif](/public/mockup.png 'Screenshot of SaaS Landing Page')
+
 A sleek and responsive SaaS landing page built with modern web technologies. Showcasing features, pricing, and testimonials to captivate your audience. Perfect for startups and businesses!
 
 ## Table of Contents
 
-- [General information](#general-information)
+- [General informations](#general-informations)
   - [Technologies](#technologies)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgments)
 
-## General Information
+## General Informations
 
 This project is dedicated to the design of a landing page for a fake SaaS to demonstrate my skills to develop this type of project.
 
